@@ -153,7 +153,11 @@ a:hover {
 }
 
 .bg-blue {
-  background: #2e7eed;
+  background: #3b8ee7;
+}
+
+.bg-overleaf {
+  background: #4f8ecc;
 }
 
 .bg-1 {
