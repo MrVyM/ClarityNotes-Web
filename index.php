@@ -99,6 +99,63 @@
 	</div>
 </section>
 
+<section class="contact-form section-contact-page">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="mb-5 text-center">Activez votre abonnement Premium</h2>
+			</div>
+			<div class="col-12">
+				<form method="post" action="">
+					<div class="row">
+						<div class="col-md-6 mb-2">
+							<input class="form-control main" type="text" name="username" placeholder="Nom d'utilisateur" required>
+						</div>
+						<div class="col-md-6 mb-2">
+							<input class="form-control main" type="password" name="password" placeholder="Mot de passe" required>
+						</div>
+						<div class="col-12 text-center">
+							<button class="btn btn-main-md">Envoyer</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="call-to-action-app section bg-blue">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>Il est temps de nous rejoindre !</h2>
+				<p>Téléchargez ClarityNotes et rejoignez notre communauté.
+					<br>Vous ne regretterez pas.</p>
+				<ul class="list-inline">
+					<li class="list-inline-item">
+						<a href="404.html" class="btn btn-rounded-icon">
+							<i class="ti-apple"></i>
+							iPhone
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="404.html" class="btn btn-rounded-icon">
+							<i class="ti-android"></i>
+							Android
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="404.html" class="btn btn-rounded-icon">
+							<i class="ti-microsoft-alt"></i>
+							Windows
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
 <!--==================================
 =            Feature Grid            =
 ===================================-->
@@ -328,37 +385,5 @@
 	</div>
 </section>
 --====  End of Testimonial  ====-->
-
-<section class="call-to-action-app section bg-blue">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<h2>Il est temps de nous rejoindre !</h2>
-				<p>Téléchargez ClarityNotes et rejoignez notre communauté.
-					<br>Vous ne regretterez pas.</p>
-				<ul class="list-inline">
-					<li class="list-inline-item">
-						<a href="404.html" class="btn btn-rounded-icon">
-							<i class="ti-apple"></i>
-							iPhone
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a href="404.html" class="btn btn-rounded-icon">
-							<i class="ti-android"></i>
-							Android
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a href="404.html" class="btn btn-rounded-icon">
-							<i class="ti-microsoft-alt"></i>
-							Windows
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</section>
 
 <?php require 'footer.php'; ?>
