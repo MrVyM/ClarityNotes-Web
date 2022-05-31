@@ -1,101 +1,24 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-
-  <!-- Basic Page Needs
-  ================================================== -->
-  <meta charset="utf-8">
-  <title>ClarityNotes - Projet S2 EPITA</title>
-
-  <!-- Mobile Specific Metas
-  ================================================== -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="ClarityNotes - Projet S2 EPITA">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta name="author" content="ClarityNotes">
-  <meta name="generator" content="ClarityNotes">
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
-  
-  <!-- PLUGINS CSS STYLE -->
-  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
-  <link rel="stylesheet" href="plugins/slick/slick.css">
-  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
-  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="plugins/aos/aos.css">
-
-  <!-- CUSTOM CSS -->
-  <link href="css/style.css" rel="stylesheet">
-
-</head>
-
-<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
-
-
-<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
-  <div class="container">
-    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="ti-menu"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item @@home">
-          <a class="nav-link" href="index.html">Accueil</a>
-		</li>
-        <li class="nav-item @@team">
-          <a class="nav-link" href="team.html">Membres</a>
-		</li>
-        <li class="nav-item @@faq">
-          <a class="nav-link" href="FAQ.html">FAQ</a>
-        </li>
-        <li class="nav-item @@contact">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!--================================
-=            Page Title            =
-=================================-->
+<?php require 'header.php'; ?>
 
 <section class="section page-title">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-8 m-auto">
-				<!-- Page Title -->
 				<h1>Membres du projet ClarityNotes</h1>
-				<!-- Page Description -->
 				<p>Cette page est consacrée à présenter les différents membres du projet ClarityNotes.</p>
 			</div>
 		</div>
 	</div>
 </section>
 
-<!--====  End of Page Title  ====-->
-
-
-<!--==================================
-=            Feature Team            =
-===================================-->
 <section class="founders section pt-0">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6">
-				<!-- Featured Member -->
 <div class="founder">
-	<!-- Name -->
 	<h2>Vianney Marticou</h2>
-	<!-- position -->
 	<cite>Chef de projet - Développeur</cite>
-	<!-- Description -->
 	<p>Je m'appelle Vianney, je suis agé de 19 ans. Je me passionne pour le bricolage et, comme l'indique mes études, pour l'informatique. J'ai pris les rênes de ce projet suite au départ de Lucas. Ce projet va me permettre de développer mes compétences techniques mais aussi apprendre à gérer une équipe et organiser un projet.</p>
-	<!-- Social Sites -->
 	<ul class="list-inline social-links">
 		<li class="list-inline-item"><a href="mailto:vianney.marticou@epita.fr"><i class="ti-email"></i></a></li>
 		<li class="list-inline-item"><a href="https://github.com/Laregledujeu"><i class="ti-github"></i></a></li>
@@ -104,15 +27,10 @@
 </div>
 			</div>
 			<div class="col-lg-6">
-				<!-- Featured Member -->
 <div class="founder">
-	<!-- Name -->
 	<h2>Romain Vallette-Grisel</h2>
-	<!-- position -->
 	<cite>Développeur</cite>
-	<!-- Description -->
 	<p>Je m'appelle Romain Vallette-Grisel. Je suis âgé de 19 ans et originaire de Normandie mais je vis à Lyon en raison de mes études à EPITA. Passionné d'informatique depuis le collège, c'est avec plaisir que je travaille sur le projet ClarityNotes. J'espère que ce projet aura la chance de m'apporter beaucoup de connaissances et compétences techniques comme humaines.</p>
-	<!-- Social Sites -->
 	<ul class="list-inline social-links">
 		<li class="list-inline-item"><a href="mailto:romain.vallette-grisel@epita.fr"><i class="ti-email"></i></a></li>
 		<li class="list-inline-item"><a href="https://github.com/NiamorOFF"><i class="ti-github"></i></a></li>
@@ -123,24 +41,14 @@
 		</div>
 	</div>
 </section>
-<!--====  End of Feature Team  ====-->
-
-<!--==================================
-=            Feature Team            =
-===================================-->
 <section class="founders section pt-0">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6">
-				<!-- Featured Member -->
 <div class="founder">
-	<!-- Name -->
 	<h2>Khôren Pasdrmadjian</h2>
-	<!-- position -->
 	<cite>Développeur</cite>
-	<!-- Description -->
 	<p>Khoren, 18 ans et étudiant en première année de cycle préparatoire à l’EPITA sur le campus de Lyon. Je suis passionné par les nouvelles technologies et le numérique. Je pratique le golf en compétition et suis grand fan de l’univers Game of Thrones. Ma devise :  « Ne jamais s’y prendre à l’avance. ».</p>
-	<!-- Social Sites -->
 	<ul class="list-inline social-links">
 		<li class="list-inline-item"><a href="mailto:khoren.pasdrmadjian@epita.fr"><i class="ti-email"></i></a></li>
 		<li class="list-inline-item"><a href="https://github.com/khorenlebg"><i class="ti-github"></i></a></li>
@@ -149,30 +57,19 @@
 </div>
 			</div>
 			<div class="col-lg-6">
-				<!-- Featured Member -->
 <div class="founder">
-	<!-- Name -->
 	<h2>Lucas Besson</h2>
-	<!-- position -->
 	<cite>Ex-chef de projet</cite>
-	<!-- Description -->
 	<p>Lucas était un ancien membre et plus précisément le chef de groupe du projet. Hélas, il a décidé de quitter EPITA ainsi que le projet en février dernier. L'ensemble du groupe tient à le remercier pour les quelques semaines pendant lesquelles il a contribué à la réalisation de ce projet.</p>
-	<!-- Social Sites -->
 	<ul class="list-inline social-links">
 		<li class="list-inline-item"><a href="mailto:lucas.besson@epita.fr"><i class="ti-email"></i></a></li>
-		<!--<li class="list-inline-item"><a href="404.html"><i class="ti-github"></i></a></li>
-		<li class="list-inline-item"><a href="404.html"><i class="ti-instagram"></i></a></li>-->
 	</ul>
 </div>
 			</div>
 		</div>
 	</div>
 </section>
-<!--====  End of Feature Team  ====-->
 
-<!--=================================
-=            Design Team            =
-==================================-->
 <section class="design-team section pt-0">
 	<div class="container">
 		<div class="row">
@@ -185,12 +82,9 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-4 col-md-6">
-				<!-- Team -->
 <div class="team-sm">
-	<!-- Team Member Image -->
 	<div class="image">
 		<img class="w-100" src="images/team/khoren-picture.jpg" alt="member-image">
-		<!-- Social Contacts -->
 		<div class="social-links">
 			<ul class="list-inline">
 				<li class="list-inline-item"><a href="mailto:khoren.pasdrmadjian@epita.fr"><i class="ti-email"></i></a></li>
@@ -199,19 +93,14 @@
 			</ul>
 		</div>
 	</div>
-	<!-- Name -->
 	<h3>Khôren Pasdrmadjian</h3>
-	<!-- Position -->
 	<cite>Développeur</cite>
 </div>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<!-- Team -->
 <div class="team-sm">
-	<!-- Team Member Image -->
 	<div class="image">
 		<img class="w-100" src="images/team/vianney-picture.jpg" alt="member-image">
-		<!-- Social Contacts -->
 		<div class="social-links">
 			<ul class="list-inline">
 				<li class="list-inline-item"><a href="mailto:vianney.marticou@epita.fr"><i class="ti-email"></i></a></li>
@@ -220,20 +109,14 @@
 			</ul>
 		</div>
 	</div>
-	<!-- Name -->
 	<h3>Vianney Marticou</h3>
-	<!-- Position -->
 	<cite>Chef de projet - Développeur</cite>
-	<!-- Description -->
 </div>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<!-- Team -->
 <div class="team-sm">
-	<!-- Team Member Image -->
 	<div class="image">
 		<img class="w-100" src="images/team/romain-picture.jpg" alt="member-image">
-		<!-- Social Contacts -->
 		<div class="social-links">
 			<ul class="list-inline">
 				<li class="list-inline-item"><a href="mailto:romain.vallette-grisel@epita.fr"><i class="ti-email"></i></a></li>
@@ -242,66 +125,24 @@
 			</ul>
 		</div>
 	</div>
-	<!-- Name -->
 	<h3>Romain Vallette-Grisel</h3>
-	<!-- Position -->
 	<cite>Développeur</cite>
 </div>
 			</div>
 		</div>
 	</div>
 </section>
-<!--====  End of Design Team  ====-->
-
-<!--=====================================
-=            Section comment            =
-======================================-->
 
 <section class="section cta-hire bg-gary">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<!-- Hire Title -->
 				<h2>Nous recrutons des développeurs C# et Web.</h2>
-				<!-- Job Description -->
 				<p>Si vous avez des compétences en développement C# et Web, n'hésitez plus et postulez.</p>
-				<!-- Action Button -->
-				<a href="contact.html" class="mt-3 btn btn-main-md">Postuler</a>
+				<a href="contact.php" class="mt-3 btn btn-main-md">Postuler</a>
 			</div>
 		</div>
 	</div>
 </section>
 
-<!--====  End of Section comment  ====-->
-
-
-<!--============================
-=            Footer            =
-=============================-->
-<footer>
-  <div class="text-center bg-dark py-4">
-    <small class="text-secondary">Copyright &copy; <script>document.write(new Date().getFullYear())</script> - ClarityNotes</small class="text-secondary">
-  </div>
-</footer>
-
-
-  <!-- To Top -->
-  <div class="scroll-top-to">
-    <i class="ti-angle-up"></i>
-  </div>
-  
-  <!-- JAVASCRIPTS -->
-  <script src="plugins/jquery/jquery.min.js"></script>
-  <script src="plugins/bootstrap/bootstrap.min.js"></script>
-  <script src="plugins/slick/slick.min.js"></script>
-  <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
-  <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
-  <script src="plugins/aos/aos.js"></script>
-  <!-- google map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgeuuDfRlweIs7D6uo4wdIHVvJ0LonQ6g"></script>
-  <script src="plugins/google-map/gmap.js"></script>
-  
-  <script src="js/script.js"></script>
-</body>
-
-</html>
+<?php require 'footer.php'; ?>

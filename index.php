@@ -1,64 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-
-  <!-- Basic Page Needs
-  ================================================== -->
-  <meta charset="utf-8">
-  <title>ClarityNotes - Projet S2 EPITA</title>
-
-  <!-- Mobile Specific Metas
-  ================================================== -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="ClarityNotes - Projet S2 EPITA">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta name="author" content="ClarityNotes">
-  <meta name="generator" content="ClarityNotes">
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
-  
-  <!-- PLUGINS CSS STYLE -->
-  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
-  <link rel="stylesheet" href="plugins/slick/slick.css">
-  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
-  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="plugins/aos/aos.css">
-
-  <!-- CUSTOM CSS -->
-  <link href="css/style.css" rel="stylesheet">
-
-</head>
-
-<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
-
-
-<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
-  <div class="container">
-    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="ti-menu"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item @@home">
-          <a class="nav-link" href="index.html">Accueil</a>
-		</li>
-        <li class="nav-item @@team">
-          <a class="nav-link" href="team.html">Membres</a>
-		</li>
-        <li class="nav-item @@faq">
-          <a class="nav-link" href="FAQ.html">FAQ</a>
-        </li>
-        <li class="nav-item @@contact">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<?php require 'header.php'; ?>
 
 <!--====================================
 =            Hero Section            =
@@ -87,7 +27,7 @@
 			<div class="col-md-6 order-2 order-md-1 text-center text-md-left">
 				<h1 class="text-white font-weight-bold mb-4">Avec ClarityNotes, partagez vos notes !</h1>
 				<p class="text-white mb-5">Créer, rédiger, visionner, partager, organiser et supprimer des notes n'a jamais été aussi simple avec ClarityNotes. Rejoignez notre communauté.</p>
-				<a href="FAQ.html" class="btn btn-main-md">Télécharger maintenant</a>
+				<a href="FAQ.php" class="btn btn-main-md">Télécharger maintenant</a>
 			</div>
 			<div class="col-md-6 text-center order-1 order-md-2">
 				<img class="img-fluid" src="images/mobile.png" alt="screenshot">
@@ -113,7 +53,7 @@
 				</div>
 				<div class="col-lg-4 col-md-12 mt-5 mt-lg-0 text-center">
 					<i class="ti-email text-primary h1"></i>
-					<h3 class="mt-4 text-capitalize h5 "><a href="contact.html">Service client</a></h3>
+					<h3 class="mt-4 text-capitalize h5 "><a href="contact.php">Service client</a></h3>
 					<p class="regular text-muted">Vous rencontrez un soucis ? Vous avez une question ? Vous avez découvert un bug ? Contactez notre service client.</p>
 					</p>
 				</div>
@@ -400,7 +340,7 @@
 					<li class="list-inline-item">
 						<a href="404.html" class="btn btn-rounded-icon">
 							<i class="ti-apple"></i>
-							Iphone
+							iPhone
 						</a>
 					</li>
 					<li class="list-inline-item">
@@ -421,33 +361,4 @@
 	</div>
 </section>
 
-<!--============================
-=            Footer            =
-=============================-->
-<footer>
-  <div class="text-center bg-dark py-4">
-    <small class="text-secondary">Copyright &copy; <script>document.write(new Date().getFullYear())</script> - ClarityNotes</small class="text-secondary">
-  </div>
-</footer>
-
-
-  <!-- To Top -->
-  <div class="scroll-top-to">
-    <i class="ti-angle-up"></i>
-  </div>
-  
-  <!-- JAVASCRIPTS -->
-  <script src="plugins/jquery/jquery.min.js"></script>
-  <script src="plugins/bootstrap/bootstrap.min.js"></script>
-  <script src="plugins/slick/slick.min.js"></script>
-  <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
-  <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
-  <script src="plugins/aos/aos.js"></script>
-  <!-- google map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgeuuDfRlweIs7D6uo4wdIHVvJ0LonQ6g"></script>
-  <script src="plugins/google-map/gmap.js"></script>
-  
-  <script src="js/script.js"></script>
-</body>
-
-</html>
+<?php require 'footer.php'; ?>
