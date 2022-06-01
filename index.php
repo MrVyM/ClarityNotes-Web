@@ -119,6 +119,24 @@
 						</div>
 					</div>
 				</form>
+				<?php
+				if ($_SERVER["REQUEST_METHOD"] == "POST") {
+					$username = $_POST["username"]; 
+					$password = $_POST["password"];
+					if (!isset($username, $password)){
+						die("Le formulaire n'a pas été correctement renseigné.");
+					}
+					$db = new PDO('mysql:host=83.150.217.50;dbname=clarity_notes', 'root', 'tAP4kN4SLEpit@');
+					$sqlQuery = "UPDATE users SET premium=1 WHERE username=? AND hashPassword=?;";
+					$db->prepare($sqlQuery)->execute([$username, hash('sha256', $password)]);
+					{
+					?>
+					<br>
+					<p class="text-center">Dans le cas où vos identifiants sont corrects, vous bénéficez désormais de l'offre Premium.</p>
+					<?php
+					}
+				}
+				?>
 			</div>
 		</div>
 	</div>
