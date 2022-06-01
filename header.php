@@ -42,12 +42,9 @@
         <li class="nav-item @@team">
           <a class="nav-link" href="team.php">Membres</a>
 		</li>
-        <li class="nav-item @@faq">
-          <a class="nav-link" href="FAQ.php">FAQ</a>
-        </li>
         <li class="nav-item @@contact">
           <a class="nav-link" href="contact.php">Contact</a>
-        </li>
+    </li>
       </ul>
     </div>
   </div>
