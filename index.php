@@ -103,7 +103,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h2 class="mb-5 text-center">Activez votre abonnement Premium</h2>
+				<h2 class="mb-5 text-center">Activez votre licence Premium</h2>
 			</div>
 			<div class="col-12">
 				<form method="post" action="">
@@ -132,7 +132,9 @@
 					{
 					?>
 					<br>
-					<p class="text-center">Dans le cas où vos identifiants sont corrects, vous bénéficez désormais de l'offre Premium.</p>
+					<p class="text-center">Dans le cas où vos identifiants sont corrects, vous bénéficez désormais de la licence Premium.</p>
+					<br>
+					<p class="text-center">Déconnectez-vous et reconnectez-vous à l'application pour avoir accès à vos avantages.</p>
 					<?php
 					}
 				}
