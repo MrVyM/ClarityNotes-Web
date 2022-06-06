@@ -22,7 +22,6 @@
 	<ul class="list-inline social-links">
 		<li class="list-inline-item"><a href="mailto:vianney.marticou@epita.fr"><i class="ti-email"></i></a></li>
 		<li class="list-inline-item"><a href="https://github.com/Laregledujeu"><i class="ti-github"></i></a></li>
-		<!--<li class="list-inline-item"><a href="404.html"><i class="ti-instagram"></i></a></li>-->
 	</ul>
 </div>
 			</div>
@@ -52,7 +51,6 @@
 	<ul class="list-inline social-links">
 		<li class="list-inline-item"><a href="mailto:khoren.pasdrmadjian@epita.fr"><i class="ti-email"></i></a></li>
 		<li class="list-inline-item"><a href="https://github.com/khorenlebg"><i class="ti-github"></i></a></li>
-		<!--<li class="list-inline-item"><a href="404.html"><i class="ti-instagram"></i></a></li>-->
 	</ul>
 </div>
 			</div>
@@ -89,7 +87,6 @@
 			<ul class="list-inline">
 				<li class="list-inline-item"><a href="mailto:khoren.pasdrmadjian@epita.fr"><i class="ti-email"></i></a></li>
 				<li class="list-inline-item"><a href="https://github.com/khorenlebg"><i class="ti-github"></i></a></li>
-				<!--<li class="list-inline-item"><a href="404.html"><i class="ti-instagram"></i></a></li>-->
 			</ul>
 		</div>
 	</div>
@@ -105,7 +102,6 @@
 			<ul class="list-inline">
 				<li class="list-inline-item"><a href="mailto:vianney.marticou@epita.fr"><i class="ti-email"></i></a></li>
 				<li class="list-inline-item"><a href="https://github.com/Laregledujeu"><i class="ti-github"></i></a></li>
-				<!--<li class="list-inline-item"><a href="404.html"><i class="ti-instagram"></i></a></li>-->
 			</ul>
 		</div>
 	</div>

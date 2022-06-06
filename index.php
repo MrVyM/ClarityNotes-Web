@@ -1,8 +1,5 @@
 <?php require 'header.php'; ?>
 
-<!--====================================
-=            Hero Section            =
-=====================================-->
 <section class="section gradient-banner">
 	<div class="shapes-container">
 		<div class="shape" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="100"></div>
@@ -35,7 +32,6 @@
 		</div>
 	</div>
 </section>
-<!--====  End of Hero Section  ====-->
 
 <section class="section pt-0 position-relative pull-top">
 	<div class="container">
@@ -154,8 +150,8 @@
 				<ul class="list-inline">
 					<li class="list-inline-item">
 						<a href="404.html" class="btn btn-rounded-icon">
-							<i class="ti-apple"></i>
-							iPhone
+							<i class="ti-microsoft-alt"></i>
+							Windows
 						</a>
 					</li>
 					<li class="list-inline-item">
@@ -164,40 +160,27 @@
 							Android
 						</a>
 					</li>
-					<li class="list-inline-item">
-						<a href="404.html" class="btn btn-rounded-icon">
-							<i class="ti-microsoft-alt"></i>
-							Windows
-						</a>
-					</li>
 				</ul>
 			</div>
 		</div>
 	</div>
 </section>
 
-<!--==================================
-=            Feature Grid            =
-===================================-->
 <section class="feature section pt-0">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 ml-auto justify-content-center">
-				<!-- Feature Mockup -->
 				<div class="image-content" data-aos="fade-right">
 					<img class="img-fluid" src="images/feature/feature-new-01.jpg" alt="iphone">
 				</div>
 			</div>
 			<div class="col-lg-6 mr-auto align-self-center">
 				<div class="feature-content">
-					<!-- Feature Title -->
 					<h2>Améliorez votre productivité et soyez organisé.</h2>
-					<!-- Feature Description -->
 					<p class="desc">ClarityNotes regorge de nombreuses fonctionnalités permettant à ses utilisateurs de gagner en productivité et en organisation.
 						Créer, ainsi qu'utiliser des répertoires en quelques clics est à porter de mains de tous. Vous pouvez ainsi ranger et organiser vos notes par thématiques.
 					</p>
 				</div>
-				<!-- Testimonial Quote -->
 				<div class="testimonial">
 					<p>
 						"Depuis que j'ai découvert et que j'utilise ClarityNotes, ma productivité et mon organisation n'ont jamais cessé de croître !"
