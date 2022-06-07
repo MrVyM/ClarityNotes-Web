@@ -24,7 +24,7 @@
 			<div class="col-md-6 order-2 order-md-1 text-center text-md-left">
 				<h1 class="text-white font-weight-bold mb-4">Avec ClarityNotes, partagez vos notes !</h1>
 				<p class="text-white mb-5">Créer, rédiger, visionner, partager, organiser et supprimer des notes n'a jamais été aussi simple avec ClarityNotes. Rejoignez notre communauté.</p>
-				<a href="404.html" class="btn btn-main-md">Télécharger maintenant</a>
+				<a href="application/ClarityNotes.rar" download class="btn btn-main-md">Télécharger maintenant</a>
 			</div>
 			<div class="col-md-6 text-center order-1 order-md-2">
 				<img class="img-fluid" src="images/mobile.png" alt="screenshot">
@@ -149,13 +149,13 @@
 					<br>Vous ne regretterez pas.</p>
 				<ul class="list-inline">
 					<li class="list-inline-item">
-						<a href="404.html" class="btn btn-rounded-icon">
+						<a href="application/Windows.rar" download class="btn btn-rounded-icon">
 							<i class="ti-microsoft-alt"></i>
 							Windows
 						</a>
 					</li>
 					<li class="list-inline-item">
-						<a href="404.html" class="btn btn-rounded-icon">
+						<a href="application/com.epita.claritynotes.apk" download class="btn btn-rounded-icon">
 							<i class="ti-android"></i>
 							Android
 						</a>
